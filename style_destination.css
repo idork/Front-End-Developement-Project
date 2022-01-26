@@ -28,7 +28,7 @@ body{
     text-transform: uppercase;
     letter-spacing:  1px;
     position: relative;
-    padding-right: 35px;
+    margin-right: 35px;
     top: 18px;
 }
 .top-items{
@@ -40,8 +40,15 @@ body{
     background: rgba(25, 54, 90, 0.5);
     padding: 25px 50px;
     height: 45px;
+    
+}
+.top-items a:hover {
+
 }
 
+.top-items a.section{
+    border-bottom: solid white 2px;
+}
 .top-container{
     background-color: green;
     width: 90%;
@@ -49,10 +56,14 @@ body{
     top: 5%;
 }
 
-.section{
-    border-bottom: 1px solid white;
+.top-items a{
+    padding-bottom: 35px;
+}
+
+.nav-item{
     text-align: center;
 }
+
 
 .middle-container{
     margin-left: 10%;
@@ -78,19 +89,25 @@ body{
     margin-left: 10%;
     top: 260px;
     left: 45%;
+    height: 100%;
 
 }
 
 .bottom-items{
-
+    position: relative;
+    line-height: 30px;
+}
+.bottom-items mars-nav{
+    border-bottom: solid white 2px;
 }
 
 .bot-nav-item{
     display: inline-block;
     text-transform: uppercase;
-    padding-right: 30px;
+    margin-right: 30px;
     font-size: .9rem;
     font-weight: lighter;
+
 }
 
 h2{
