@@ -1,0 +1,170 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: absolute;
+    background-image: url("./assets/destination/background-destination-desktop.jpg");
+    font-family: Helvetica, sans-serif;
+}
+
+hr{
+    width: 46%;
+    z-index: -1;
+    left: 11%;
+    position: absolute;
+    top: 41px;
+
+}
+
+.nav-item{
+    display: inline-block;
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing:  1px;
+    position: relative;
+    margin-right: 35px;
+    top: 18px;
+
+}
+.top-container{
+    width: 90%;
+    position: absolute;
+    top: 5%;
+}
+.top-items{
+    position: absolute;
+    left: 50%;
+    width: 80%;
+    min-width: 560px;
+    background: rgba(25, 54, 90, 0.5);
+    padding: 25px 50px;
+    height: 45px;
+}
+.top-items a.section{
+    border-bottom: solid white 2px;
+}
+.top-container{
+    width: 90%;
+    position: absolute;
+    top: 5%;
+}
+
+.top-items a{
+    padding-bottom: 35px;
+}
+
+.nav-item{
+    text-align: center;
+}
+
+
+.middle-container{
+    margin-left: 10%;
+    width: 40%;
+    height: 400px;
+}
+
+.middle-title{
+    position: absolute;
+    top: 150px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.titan{
+    position: absolute; 
+    top: 280px;
+    left: 180px;
+}
+.bottom-container{
+    position: absolute;
+    margin-left: 10%;
+    top: 260px;
+    left: 45%;
+    height: 100%;
+
+}
+
+.bottom-items{
+    position: relative;
+    line-height: 30px;
+}
+.bottom-items mars-nav{
+    border-bottom: solid white 2px;
+}
+
+.bot-nav-item{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-size: .9rem;
+    font-weight: lighter;
+}
+
+
+h2{
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-size: normal;
+}
+
+p{
+    width: 370px;
+    line-height: 2;
+    font-weight: lighter;
+    position: relative;
+    top: -50px;
+    font-size: .9em;
+}
+
+.bottom-half-container{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr); /* two rows */
+    grid-template-columns: repeat(2, 1fr); /*two columns */
+}
+
+.titan-nav{
+    border-bottom: solid;
+}
+
+.box1{
+    grid-column: 1; /* grid-col and gri-row will place them where you want*/
+    grid-row: 1;
+}
+
+.box2{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.box3{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+
+.box4{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.estimation-title{
+    font-size: .6rem;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+
+.estimation{
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
