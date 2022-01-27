@@ -102,4 +102,6 @@ p{
       text-transform: uppercase;
   }
 
-  
+  a:visited{
+    color: inherit;
+}
