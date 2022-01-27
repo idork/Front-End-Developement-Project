@@ -49,6 +49,7 @@ body{
     border-bottom: solid white 2px;
 }
 .top-container{
+
     width: 90%;
     position: absolute;
     top: 5%;
@@ -167,3 +168,6 @@ p{
     font-weight: lighter;
 }
 
+a:visited{
+    color: inherit;
+}
