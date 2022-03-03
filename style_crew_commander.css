@@ -1,0 +1,166 @@
+html {
+    overflow: scroll;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: absolute;
+    background-image: url("./assets/crew/background-crew-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: merriwe sans-serif;
+}
+
+hr{
+    width: 46%;
+    z-index: -1;
+    left: 11%;
+    position: absolute;
+    top: 41px;
+
+}
+
+.nav-item{
+    display: inline-block;
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing:  1px;
+    position: relative;
+    margin-right: 35px;
+    top: 18px;
+
+}
+.top-container{
+    width: 90%;
+    position: absolute;
+    top: 5%;
+}
+.top-items{
+    position: absolute;
+    left: 50%;
+    width: 80%;
+    min-width: 560px;
+    background: rgba(25, 54, 90, 0.5);
+    padding: 25px 50px;
+    height: 45px;
+}
+.top-items a.section{
+    border-bottom: solid white 2px;
+}
+.top-container{
+    width: 90%;
+    position: absolute;
+    top: 5%;
+}
+
+.top-items a{
+    padding-bottom: 35px;
+}
+
+.nav-item{
+    text-align: center;
+}
+
+h2{
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-size: normal;
+}
+
+.middle-container{
+    margin-left: 10%;
+    width: 40%;
+    height: 300px;
+    position: relative;
+    top: 150px;
+    border: solid pink;
+}
+
+.middle-title{
+    border: solid blue;
+}
+
+a, a:visited, a:active{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+.container{
+    display: grid;
+    position: relative;
+    grid-template-rows: repeat(2, 1fr); /* two rows */
+    grid-template-columns: repeat(4, 1fr); /*two columns */
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    left: 150px;
+    border: solid green;
+
+}
+
+.box1{
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    /*border: solid green; */
+    height: 50px;
+    width: 300px;
+    position: relative;
+    border: solid yellow;
+}
+
+.box2{
+    grid-row: 3rem;
+    grid-column: 1;
+    font-size: 2rem;
+    font-weight: lighter;
+    /*border: solid green; */
+    height: 40px;
+    width: 400px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    border: solid purple;
+    bottom: 50px;
+
+}
+.box3{
+    grid-row: 3;
+    grid-column: 1;
+    color: white;
+    /*border: solid green; */
+    width: 400px;
+    line-height: 2;
+    font-weight: lighter;
+    position: relative;
+    font-size: .9em;
+    border: solid purple;
+    bottom: 100px;
+
+}
+.box4{
+    grid-row: 1;
+    grid-column: 2;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    background-image: url("./assets/crew/image-anousheh-ansari.png");
+    background-size: cover;
+    left: 250px;
+    grid-row-start: 1; /* this and row-end is so that the grid extends the length of the other grids and doesn't add gaps*/
+    grid-row-end: 4;
+}
+.image{
+    position: relative;
+    left: 20px;
+    max-width: 100px;
+    height: 100ps;
+    object-fit: cover;
+}
