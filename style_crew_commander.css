@@ -193,3 +193,7 @@ a, a:visited, a:active{
 .commander{
     color: grey;
 }
+
+.top-items a.section{
+    border-bottom: solid white 2px;
+}

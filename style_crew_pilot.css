@@ -195,3 +195,7 @@ a, a:visited, a:active{
 .pilot{
     color: grey;
 }
+
+.top-items a.section{
+    border-bottom: solid white 2px;
+}

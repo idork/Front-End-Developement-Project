@@ -191,3 +191,7 @@ a, a:visited, a:active{
     font-size: 40px;
 
 }
+
+.top-items a.section{
+    border-bottom: solid white 2px;
+}
