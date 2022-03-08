@@ -29,6 +29,7 @@ body{
     position: relative;
     margin-right: 35px;
     top: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .top-items{
     position: absolute;
