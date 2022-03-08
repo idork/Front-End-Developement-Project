@@ -24,6 +24,7 @@ hr{
 
 }
 
+
 .nav-item{
     display: inline-block;
     font-size: .9rem;
@@ -33,8 +34,8 @@ hr{
     margin-right: 35px;
     top: 18px;
     font-family: 'Roboto Condensed', sans-serif;
-
 }
+
 .top-container{
     width: 90%;
     position: absolute;

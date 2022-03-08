@@ -10,7 +10,7 @@ body{
     color: white;
     position: absolute;
     background-image: url("./assets/destination/background-destination-desktop.jpg");
-    font-family: Helvetica, sans-serif;
+    font-family: 'Lora', serif;
 }
 
 .hr-top{

@@ -10,7 +10,7 @@ body{
     color: white;
     position: absolute;
     background-image: url("./assets/destination/background-destination-desktop.jpg");
-    font-family: Helvetica, sans-serif;
+    font-family: 'Lora', serif;
 }
 
 hr{
@@ -106,6 +106,10 @@ hr{
     margin-right: 30px;
     font-size: .9rem;
     font-weight: lighter;
+}
+
+.h1{
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 
