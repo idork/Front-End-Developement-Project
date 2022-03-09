@@ -9,6 +9,8 @@ body{
     height: 100%;
     position: absolute;
     background-image: url("./assets/technology/background-technology-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
     color: white;
     font-family: 'Lora', serif;
 }
@@ -32,7 +34,7 @@ hr{
     margin-right: 35px;
     top: 18px;
     font-family: 'Roboto Condensed', sans-serif;
-
+    text-align: center;
 }
 
 .top-container{
@@ -53,20 +55,11 @@ hr{
 .top-items a.section{
     border-bottom: solid white 2px;
 }
-.top-container{
-    width: 90%;
-    position: absolute;
-    top: 5%;
-}
 
 .top-items a{
     padding-bottom: 35px;
 }
-.nav-item{
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
 
-}
 
 h1{
     text-transform: uppercase;
@@ -100,3 +93,54 @@ a, a:visited, a:active{
     color: inherit;
     text-decoration: none;
 }
+
+@media screen and (max-width: 800px) {
+    body{
+        background-image: url("./assets/technology/background-technology-mobile.jpg");
+        border: green solid;
+        margin-left: 20px;
+    }
+
+
+    .top-items::before{
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 24px;
+    height: 4px;
+    background: white;
+    box-shadow: 0 8px 0 0 white, 0 16px 0 0 white;
+    }
+
+    .top-items{
+        background:none;
+        border: solid red;
+        padding: 0px;
+        left: 80%;
+        width: 10%;
+        height: 10%;
+        min-width: 20px;
+        position: relative;
+    }
+    .nav-item{
+        width: 00;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-right: 0px;
+
+    }
+    .top-container{
+        border: yellow solid;
+        width: 100%;
+    }
+
+    .middle-container{
+        width: 50%;
+        padding: 0px;
+
+        left: 11%;
+    }
+}
+
