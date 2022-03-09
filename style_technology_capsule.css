@@ -94,13 +94,15 @@ a, a:visited, a:active{
     text-decoration: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 480px) {
     body{
         background-image: url("./assets/technology/background-technology-mobile.jpg");
-        border: green solid;
         margin-left: 20px;
     }
 
+    hr{
+        visibility: hidden;
+    }
 
     .top-items::before{
     content: "";
@@ -115,7 +117,6 @@ a, a:visited, a:active{
 
     .top-items{
         background:none;
-        border: solid red;
         padding: 0px;
         left: 80%;
         width: 10%;
@@ -132,7 +133,6 @@ a, a:visited, a:active{
 
     }
     .top-container{
-        border: yellow solid;
         width: 100%;
     }
 
