@@ -10,6 +10,7 @@ body{
     position: absolute;
     background-image: url("./assets/home/background-home-desktop.jpg");
     color: white;
+    background-size: 100%;
     font-family: 'Lora', serif;
 }
  
@@ -112,4 +113,65 @@ p{
 
 .top-items a.section{
     border-bottom: solid white 2px;
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        background-image: url("./assets/home/background-home-mobile.jpg");
+        margin-left: 20px;
+        background-size: 100%;
+    }
+
+    hr{
+        visibility: hidden;
+    }
+
+    .top-items::before{
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 24px;
+    height: 4px;
+    background: white;
+    box-shadow: 0 8px 0 0 white, 0 16px 0 0 white;
+    }
+
+    .top-items{
+        background:none;
+        padding: 0px;
+        left: 80%;
+        width: 10%;
+        height: 10%;
+        min-width: 20px;
+        position: relative;
+    }
+    .nav-item{
+        width: 00;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-right: 0px;
+
+    }
+    .top-container{
+        width: 100%;
+    }
+
+    .middle-container{
+        width: 50%;
+        padding: 0px;
+        left: 11%;
+    }
+
+    .container{
+        display: block;
+    }
+
+    .bottom-container{
+        top: 20%;
+    }
+    .circle{
+        left: 25%;
+    }
 }
