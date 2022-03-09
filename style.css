@@ -1,5 +1,4 @@
 html {
-    overflow: hidden;
     height: 100%;
 }
  
@@ -10,7 +9,7 @@ body{
     position: absolute;
     background-image: url("./assets/home/background-home-desktop.jpg");
     color: white;
-    background-size: 100%;
+    background-size: 100%  100%;
     font-family: 'Lora', serif;
 }
  
@@ -115,7 +114,7 @@ p{
     border-bottom: solid white 2px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
     body{
         background-image: url("./assets/home/background-home-mobile.jpg");
         margin-left: 20px;
@@ -128,7 +127,7 @@ p{
 
     .top-items::before{
     content: "";
-    position: absolute;
+    position: relative;
     left: 20px;
     top: 20px;
     width: 24px;
@@ -174,4 +173,26 @@ p{
     .circle{
         left: 25%;
     }
+}
+@media screen and (min-width: 481px) and (max-width: 769px) {
+    body{
+        background-image: url("./assets/home/background-home-tablet.jpg");
+    }
+
+    hr{
+        visibility: hidden;
+    }
+    .top-container{
+        width: 100%;
+        right: 200px;
+    }
+    .bottom-container{
+        top: 25%;
+        left: 18%
+    }
+    .circle{
+        left: 35%;
+        top: 70%;
+    }
+
 }
