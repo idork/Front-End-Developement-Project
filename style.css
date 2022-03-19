@@ -14,11 +14,11 @@ body{
 }
  
 hr{
-    width: 46%;
+    width: 42%;
     z-index: -1;
     left: 11%;
     position: absolute;
-    top: 41px;
+    top: 45px;
 
 }
 
@@ -127,7 +127,7 @@ p{
 
     .top-items::before{
     content: "";
-    position: relative;
+    position: a;
     left: 20px;
     top: 20px;
     width: 24px;
@@ -170,8 +170,14 @@ p{
     .bottom-container{
         top: 20%;
     }
+
+    .right-container{
+        overflow: hidden;
+        
+    }
     .circle{
         left: 25%;
+
     }
 }
 @media screen and (min-width: 481px) and (max-width: 769px) {
@@ -190,6 +196,7 @@ p{
         top: 25%;
         left: 18%
     }
+
     .circle{
         left: 35%;
         top: 70%;
