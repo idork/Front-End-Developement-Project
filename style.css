@@ -126,6 +126,17 @@ p{
         visibility: hidden;
     }
 
+    h2 {
+        font-size: 1.0rem;
+    }
+
+    h1{
+        font-size: 5rem;
+    }
+
+    p{
+        font-size: .8rem;
+    }
     .top-items::before{
     content: "";
     position: absolute;
@@ -178,7 +189,14 @@ p{
     }
     .circle{
         left: 25%;
+        width: 180px;
+        height: 180px;
+    }
 
+    .explore{
+        font-size: 1.3rem;
+        top: 80px;
+        left: 43px;
     }
 }
 @media screen and (min-width: 481px) and (max-width: 769px) {
