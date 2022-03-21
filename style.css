@@ -121,13 +121,14 @@ p{
         background-size: 100%;
     }
 
+ 
     hr{
         visibility: hidden;
     }
 
     .top-items::before{
     content: "";
-    position: a;
+    position: absolute;
     left: 20px;
     top: 20px;
     width: 24px;
